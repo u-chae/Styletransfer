@@ -28,3 +28,31 @@ These include the StyleGAN generator and pre-trained models used for loss comput
 
 After downloading, place these files in the appropriate directories as referenced by the code  
 (e.g., `encoder/`, `pretrained_models/`, or `/content` depending on your implementation).
+
+## 💻 Inference
+
+### 🚀 Run Image Editing
+
+You can run the editing script with your own image by using the following command:
+
+```bash
+cd emotiona_aware
+
+python edit_image.py \
+  --input /path/to/input_image.jpg \
+  --output /path/to/output_image.jpg 
+```
+
+### 📁 Preparing Image to Latent
+
+To invert and edit a generated image, it must first be **aligned and cropped** to the correct size.  
+You can perform this preprocessing by using one of the following options:
+
+- Run the notebook: `notebooks/align_data.ipynb`  
+  → Modify the `images_path` variable to point to your raw image directory
+
+- Run the script: `utils/align_data.py`  
+  → Modify the `images_path` variable to point to your raw image directory
+
+---
+
