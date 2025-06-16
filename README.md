@@ -23,8 +23,8 @@ These include the StyleGAN generator and pre-trained models used for loss comput
 | Model             | Description                             | Download |
 |------------------|-----------------------------------------|----------|
 | FFHQ StyleGAN    | StyleGAN2-ADA model (1024x1024)         | [📥 ffhq.pkl](https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/ffhq.pkl) |
-| Dlib Alignment   | Dlib face landmarks model               | [📥 shape_predictor_68_face_landmarks.dat.bz2](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) |
-| FFHQ e4e Encoder | Pretrained e4e encoder                  | [📥 e4e_ffhq_encode.pt](https://github.com/omertov/encoder4editing/releases/download/0.1/e4e_ffhq_encode.pt) |
+| Dlib Alignment   | Dlib face landmarks model               | [📥 shape_predictor_68_face_landmarks.dat.bz2](https://drive.google.com/file/d/1HKmjg6iXsWr4aFPuU0gBXPGR83wqMzq7/view)
+| FFHQ e4e Encoder | Pretrained e4e encoder                  | [📥 e4e_ffhq_encode.pt](https://drive.google.com/file/d/1ALC5CLA89Ouw40TwvxcwebhzWXM5YSCm/view)
 
 After downloading, place these files in the appropriate directories as referenced by the code  
 (e.g., `encoder/`, `pretrained_models/`, or `/content` depending on your implementation).
