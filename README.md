@@ -62,17 +62,16 @@ You can perform this preprocessing by using one of the following options:
 Using the latent code produced during the inversion step, we apply our toon-style generator to produce the final stylized image. 
 Make sure that the latent code of the image you want to stylize is located inside the `./data_project_gen` directory.
 
-If you wish to generate images in a different style, follow the blending procedure described in [this repository](https://github.com/justinpinkney/toonify/tree/master) to create a new blended StyleGAN model and use it for style transfer.
-
 ```bash
 cd ..
-
 #example
 python toonify.py \
   --image_dir=data_project_gen \
   --filename=_toon.jpg \
   --blendednet=pretrained_networks/ffhq-cartoon-blended-64.pkl
 ```
+
+If you wish to generate images in a different style, follow the blending procedure described in [this repository](https://github.com/justinpinkney/toonify/tree/master) to create a new blended StyleGAN model and use it for style transfer.
 
 
 
