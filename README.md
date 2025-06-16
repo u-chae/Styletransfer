@@ -60,6 +60,7 @@ You can perform this preprocessing by using one of the following options:
 ### 🎨  Style transfer
 
 Using the latent code produced during the inversion step, we apply our toon-style generator to produce the final stylized image. 
+
 Make sure that the latent code of the image and corresponding image you want to stylize is located inside the `./data_project_gen` directory and the blended generator model should be placed in the `./pretrained_networks` directory.
 
 ```bash
