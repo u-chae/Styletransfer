@@ -25,7 +25,7 @@ These include the StyleGAN generator and pre-trained models used for loss comput
 | FFHQ StyleGAN    | StyleGAN2-ADA model (1024x1024)         | [📥 ffhq.pkl](https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/ffhq.pkl) |
 | Dlib Alignment   | Dlib face landmarks model               | [📥 shape_predictor_68_face_landmarks.dat.bz2](https://drive.google.com/file/d/1HKmjg6iXsWr4aFPuU0gBXPGR83wqMzq7/view)
 | FFHQ e4e Encoder | Pretrained e4e encoder                  | [📥 e4e_ffhq_encode.pt](https://drive.google.com/file/d/1ALC5CLA89Ouw40TwvxcwebhzWXM5YSCm/view)
-| Toon StyleGAN    | StyleGAN model trained on cartoon-style data      | [📥 ffhq-cartoon-blended-64.pkl](https://drive.google.com/uc?id=1H73TfV5gQ9ot7slSed_l-lim9X7pMRiU)
+| Blened StyleGAN  | Pre-blended StyleGAN model combining features from FFHQ and cartoon-style models. Used for realistic yet stylized toonification.    |  [📥 ffhq-cartoon-blended-64.pkl](https://drive.usercontent.google.com/download?id=1-04v78_pI59M0IvhcKxsm3YhK2-plnbj&export=download&authuser=0)
 
 After downloading, place these files in the appropriate directories as referenced by the code  
 (e.g., `encoder/`, `pretrained_models/`, or `/content` depending on your implementation).
@@ -56,4 +56,8 @@ You can perform this preprocessing by using one of the following options:
   → Modify the `images_path` variable to point to your raw image directory
 
 ---
+
+### 🎨  Style transfer
+
+
 
